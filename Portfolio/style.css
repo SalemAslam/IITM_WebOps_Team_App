@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: #422147;
+}
+
+html{
+    scroll-behavior: smooth;
+} 
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #422147;
+    background-size: cover;
+    background-position: center;
+}
+
+.head{
+    padding: 10px;
+    text-align: center;
+    font-size: 10px; 
+    color: white;
+    background-color: #2f1f39; 
+}
+.head h1{
+    background-color: #2f1f39;
+}
+
+.navbar{
+    border-bottom: 10px solid #990f02 ;
+    border-width: 8px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #422147;
+}
+
+.logo{
+    margin: 0px 80px;
+    width: 60px;
+    height: 60px;
+}
+
+nav ul li{
+    display: inline-block; 
+    list-style: none;
+    margin: 10px 25px;
+}
+
+nav ul li a{
+    color: #f9a603;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #990f02;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.intro{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 30px;
+    border-bottom: 10px solid #990f02 ;
+}
+
+.photo{
+    width: 530px;
+    border-radius: 120px;
+}
+
+.intro h1{
+    text-align: center;
+    padding-right: 50px;
+    font-size: 60px;
+}
+
+.intro h1 span{
+    color: #f9a603;
+    font-size: 90px;
+}
+
+#about{ 
+    border-bottom: 10px solid #990f02 ;
+}
+
+.titles{
+    display:  flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #f9a603;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+
+.contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #ffb1aa  ;
+    font-family:  "Times New Roman", Times, serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-top: 30x;
+}
+
+.contents ul li{
+    padding-bottom: 20px;
+}
+
+.p2images{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.p2images img {
+    width: 25%;
+    height: auto;
+}
+
+#contact{
+    padding: 153px 30px;
+    text-align: center;
+    font-size: 60px;
+    color:#f9a603 ;
+}
+
+p span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color:white
+}
+
+.logoInContact{
+    width: 130px;
+}
+
